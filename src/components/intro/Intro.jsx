@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./intro.css";
+import Me from "../../img/me.png";
 
 function Intro() {
   return (
@@ -19,17 +20,20 @@ function Intro() {
             </div>
           </div>
 
-          <div className="i-description">
+          <p className="i-description">
             I am a Software Developer with knowledge on production of web and
             mobile applications. I have good understanding and technical
             expertise in Computer Science fundamentals, Javascript, ReactJS,
             Redux, NodeJS, MongoDB, CSS, HTML and other technologies. I
             graduated from Tarleton State University in Bachelor in Computer
             Information Systems in May 2021.
-          </div>
+          </p>
         </div>
       </div>
-      <div className="i-right">Right</div>
+      <div className="i-right">
+        <div className="i-bg"></div>
+        <img src={Me} className="i-img" alt="My Display Pic"></img>
+      </div>
     </div>
   );
 }
