@@ -2,8 +2,8 @@
   width: 50px;
   height: 25px;
   border-radius: 20px;
-  border: 1pz solid #999;
-  background-color: white;
+  border: 1pz solid rgb(206, 180, 180);
+  background-color: rgba(255, 255, 255, 0.74);
   position: fixed;
   top: 10px;
   right: 10px;
@@ -22,7 +22,7 @@
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background-color: #999;
+  background-color: rgb(202, 194, 194);
   position: absolute;
   cursor: pointer;
 }

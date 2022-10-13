@@ -6,15 +6,19 @@ const PortfolioList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-title">Create irational Websites</h1>
+        <h1 className="pl-title">Portfolios</h1>
         <p className="pl-desc">
           I want to become a full-stack developer who can develop inspirational
-          websites.
+          websites. Here are some of my previous works that I have done.
         </p>
       </div>
       <div className="pl-list">
-        {portfolios.map((item) => (
-          <Portfolio key={item.id} img={item.img} link={item.link} />
+        {portfolios.map((project) => (
+          <Portfolio
+            key={project.id}
+            img={project.img}
+            link={project.link}
+          ></Portfolio>
         ))}
       </div>
     </div>

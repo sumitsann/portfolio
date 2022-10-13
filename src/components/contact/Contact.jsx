@@ -16,15 +16,14 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_rrvnzco",
-        "template_3v5nih4",
+        "service_6plee09",
+        "service_6plee09",
         formRef.current,
-        "user_DrriDPTGKO2Zj4RDXCA6W"
+        "tQOV8fOJk2unfY9sh"
       )
       .then(
         (result) => {
           console.log(result.text);
-          setDone(true);
         },
         (error) => {
           console.log(error.text);
@@ -37,26 +36,26 @@ const Contact = () => {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Let's discuss your project</h1>
+          <h1 className="c-title">Feel Free To Contact Me</h1>
           <div className="c-info">
             <div className="c-info-item">
               <img src={Phone} alt="" className="c-icon" />
-              +1 1234 556 75
+              +1 123 456 7890
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Email} alt="" />
-              contact@lama.dev
+              contact@sumit.com
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Address} alt="" />
-              245 King Street, Touterie Victoria 8520 Australia
+              123 Main Street, Dallas, TX 75062
             </div>
           </div>
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>What’s your story?</b> Get in touch. Always available for
-            freelancing if the right project comes along. me.
+            <b>Let me know.</b>Feel free to be in touch whenever you have any
+            issues with website development.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input
@@ -84,7 +83,7 @@ const Contact = () => {
               name="message"
             />
             <button>Submit</button>
-            {done && "Thank you..."}
+            {done && "Thank you so much"}
           </form>
         </div>
       </div>
