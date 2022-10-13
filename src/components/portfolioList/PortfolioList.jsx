@@ -1,21 +1,20 @@
 import "./portfolioList.css";
-import Product from "../product/Product";
-import { products } from "../../data";
+import Portfolio from "../portfolio/Portfolio";
+import { portfolios } from "../../data";
 
 const PortfolioList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-title">Create & inspire. It's Lama</h1>
+        <h1 className="pl-title">Create irational Websites</h1>
         <p className="pl-desc">
-          Lama is a creative portfolio that your work has been waiting for.
-          Beautiful homes, stunning portfolio styles & a whole lot more awaits
-          inside.
+          I want to become a full-stack developer who can develop inspirational
+          websites.
         </p>
       </div>
       <div className="pl-list">
-        {products.map((item) => (
-          <Product key={item.id} img={item.img} link={item.link} />
+        {portfolios.map((item) => (
+          <Portfolio key={item.id} img={item.img} link={item.link} />
         ))}
       </div>
     </div>

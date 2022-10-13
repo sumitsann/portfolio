@@ -6,8 +6,8 @@ const Intro = () => {
     <div className="i">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h2 className="i-intro">Hello, My name is</h2>
-          <h1 className="i-name">John Burton</h1>
+          <h2 className="i-intro">Hello, I am</h2>
+          <h1 className="i-name">Sumit Ojha</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item">Web Developer</div>
@@ -18,9 +18,8 @@ const Intro = () => {
             </div>
           </div>
           <p className="i-desc">
-            I design and develop services for customers of all sizes,
-            specializing in creating stylish, modern websites, web services and
-            online stores.
+            I am an IT einthusiast planning to becoe a Full Stack Developer
+            after finishing up this bootcamp. Thank you and best wishes.
           </p>
         </div>
         <svg

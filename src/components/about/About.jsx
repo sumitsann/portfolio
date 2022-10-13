@@ -1,5 +1,6 @@
 import "./about.css";
 import Award from "../../img/award.jpg";
+import AboutPic from "../../img/about.jpg";
 
 const About = () => {
   return (
@@ -8,31 +9,35 @@ const About = () => {
         <div className="a-card bg"></div>
         <div className="a-card">
           <img
-            src="https://images.pexels.com/photos/3585047/pexels-photo-3585047.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-            alt=""
+            src={AboutPic}
+            alt="Coder In Front Of System"
             className="a-img"
           />
         </div>
       </div>
       <div className="a-right">
-        <h1 className="a-title">About Me</h1>
+        <h1 className="a-title">About Myself</h1>
         <p className="a-sub">
-          It is a long established fact that a reader will be distracted by the
-          readable content.
+          I am a Software Developer with knowledge on production of web and
+          mobile applications.
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+          I have good understanding and technical expertise in Computer Science
+          fundamentals, Javascript, ReactJS, Redux, NodeJS, MongoDB, CSS, HTML
+          and other technologies. I graduated from Tarleton State University in
+          Bachelor in Computer Information Systems in May 2021.
         </p>
         <div className="a-award">
-          <img src={Award} alt="" className="a-award-img" />
+          <img src={Award} alt="Awards I Have Won" className="a-award-img" />
           <div className="a-award-texts">
-            <h4 className="a-award-title">International Design Awards 2021</h4>
+            <h4 className="a-award-title">Phi Theta Kappa Membership</h4>
             <p className="a-award-desc">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
+              Member of Phi Theta Kappa since 2017 January.
+            </p>
+
+            <h4 className="a-award-title">Magna Cum Laude</h4>
+            <p className="a-award-desc">
+              Magna Cum Laude Award due to Higher GPA score.
             </p>
           </div>
         </div>
