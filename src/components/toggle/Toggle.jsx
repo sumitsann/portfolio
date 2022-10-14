@@ -1,3 +1,5 @@
+import React, { Component } from "react";
+
 import "./toggle.css";
 import Sun from "../../img/sun.jpg";
 import Moon from "../../img/moon.jpg";

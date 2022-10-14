@@ -1,3 +1,5 @@
+import React, { Component } from "react";
+
 import "./intro.css";
 import Me from "../../img/me.png";
 

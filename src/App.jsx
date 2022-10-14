@@ -1,3 +1,5 @@
+import React, { Component } from "react";
+
 import { useContext } from "react";
 
 import Intro from "./components/intro/Intro";

@@ -1,3 +1,5 @@
+import React, { Component } from "react";
+
 import "./portfolioList.css";
 import Portfolio from "../portfolio/Portfolio";
 import { portfolios } from "../../data";

@@ -1,3 +1,5 @@
+import React, { Component } from "react";
+
 import "./about.css";
 import Award from "../../img/award.jpg";
 import AboutPic from "../../img/about.jpg";

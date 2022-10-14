@@ -1,3 +1,5 @@
+import React, { Component } from "react";
+
 import "./portfolio.css";
 
 const Portfolio = ({ img, link }) => {

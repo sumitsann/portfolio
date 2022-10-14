@@ -1,3 +1,5 @@
+import React, { Component } from "react";
+
 import "./contact.css";
 import Phone from "../../img/phone.jpg";
 import Email from "../../img/email.jpg";
