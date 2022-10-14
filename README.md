@@ -19,7 +19,7 @@ Responsive Application that uses React JS to display the Portfolio of the Works 
 
 ## Usage
 
-- nnpm start
+- npm start
 
 ## Contribution
 
